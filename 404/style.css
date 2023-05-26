@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(images/mail.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding-top: 25px;
+    color: #333;
+    text-align: center;
+    margin-left: 700px;
+    font-size: 100px;
+}
+
+p{
+    display: flex;
+    font-size: 30px;
+    color: #033e5a;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    opacity: 0.8;
+    width: max-content;
+    height: 40px;
+    border: none;
+    background-color: #ffa884;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in all 0.3s;
+    border-radius: 10px;
+    margin-left: 900px;
+}
